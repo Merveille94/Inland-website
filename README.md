@@ -4,7 +4,7 @@ Welcome to Inland, where style meets expertise in the world of hair care and bea
 
 <img src="img/Screenshot (4).png">
 
-In an era where personal style is celebrated and self-expression is paramount, Hair Haven emerges as a virtual haven for all things hair-related. Whether you're seeking the latest trends, expert advice, or a seamless appointment booking system, our platform is designed to cater to your every hair care need.
+In an era where personal style is celebrated and self-expression is paramount, Inland - Hair salon emerges as a virtual haven for all things hair-related. Whether you're seeking the latest trends, expert advice, or a seamless appointment booking system, our platform is designed to cater to your every hair care need.
 
 <img src="img/Screenshot (5).png">
 
