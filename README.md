@@ -1,6 +1,6 @@
 # Inland African Hair Braiding Salon: Your Ultimate Destination for Stylish Transformations
 
-Welcome to Hair Haven, where style meets expertise in the world of hair care and beauty! This GitHub repository is dedicated to the development of a cutting-edge hair salon website that aims to redefine the online experience for both clients and salon professionals.
+Welcome to Inland, where style meets expertise in the world of hair care and beauty! This GitHub repository is dedicated to the development of a cutting-edge hair salon website that aims to redefine the online experience for both clients and salon professionals.
 
 <img src="img/Screenshot (4).png">
 
