@@ -12,6 +12,6 @@ Join us on this exciting journey as we blend creativity with technology to bring
 
 <img src="img/Screenshot (6).png">
 
-Explore the endless possibilities that Hair Haven has to offer, where beauty and technology converge to create a seamless and delightful experience for hair enthusiasts and salon professionals alike. Let's revolutionize the way you connect with your hair and style!
+Explore the endless possibilities that Inland - Hair salon has to offer, where beauty and technology converge to create a seamless and delightful experience for hair enthusiasts and salon professionals alike. Let's revolutionize the way you connect with your hair and style!
 
 <img src="img/Screenshot (7).png">
