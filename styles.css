@@ -31,6 +31,7 @@ body {
   );
   font-family: "Poppins", sans-serif;
   font-weight: 100;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -64,17 +65,17 @@ body {
 }
 
 .img1 {
-  top: 10rem;
+  top: 5rem;
   left: 50rem;
 }
 
 .img2 {
-  top: 11rem;
+  top: 6rem;
   left: 49rem;
 }
 
 .img3 {
-  top: 12rem;
+  top: 7rem;
   left: 48rem;
 }
 
@@ -87,7 +88,7 @@ body {
   max-width: 55rem;
   margin-right: 50%;
   padding: 2rem;
-  padding-top: 17rem;
+  padding-top: 13rem;
 }
 
 .showcase h1 {
