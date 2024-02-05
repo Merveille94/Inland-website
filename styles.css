@@ -48,7 +48,9 @@ body {
 }
 
 /* showcase */
-.showcase .d-flex {
+
+/* image */
+.showcase .container {
   position: relative;
 }
 
@@ -70,3 +72,9 @@ body {
   top: 17rem;
   left: 48rem;
 }
+
+.showcase .image-container img:hover{
+    z-index: 12;
+}
+
+/* text */
