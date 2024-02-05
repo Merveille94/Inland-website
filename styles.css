@@ -44,6 +44,12 @@ h4 {
   font-size: 1.8em;
   line-height: 1;
 }
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+}
 
 /* showcase */
 
@@ -56,9 +62,9 @@ h4 {
   margin-left: 40%;
 }
 */
-  .image-container img:hover {
-    z-index: 12;
-  }
+.image-container img:hover {
+  z-index: 12;
+}
 
 .showcase .image-container img {
   padding: 2rem;
@@ -109,4 +115,4 @@ h4 {
   margin-top: 0.5rem;
   text-align: right;
   padding-right: 0.6em;
-} 
+}
