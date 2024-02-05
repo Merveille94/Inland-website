@@ -20,12 +20,16 @@ h4 {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.page-button{
+    margin-left: 6.7em;
+}
 
 .btn{
     padding:0.8rem  4rem ;
     margin-top: 4rem;
     margin-right: 1.2rem;
 }
+
 
 body {
   height: 100vh;
