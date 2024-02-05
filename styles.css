@@ -21,13 +21,14 @@ h4 {
   text-align: center;
 }
 .page-button {
-  margin-left: 4em;
+  margin-left: 8em;
+  margin-right: 1.7rem;
 }
 
 .btn {
   padding: 0.8rem 4rem;
   margin-top: 4rem;
-  margin-right: 1.2rem;
+  margin-right: 1rem;
 }
 
 .navbar {
@@ -47,19 +48,23 @@ h4 {
 /* showcase */
 
 /* image */
-.showcase .container {
+/* .showcase .container {
   position: relative;
 }
 
 .showcase .image-container {
   margin-left: 40%;
 }
+*/
+  .image-container img:hover {
+    z-index: 12;
+  }
 
 .showcase .image-container img {
-  position: absolute;
-  z-index: 10;
+  padding: 2rem;
+  padding-top: 8rem;
 }
-
+/*
 .img1 {
   top: 5rem;
   left: 50rem;
@@ -73,7 +78,7 @@ h4 {
 .img3 {
   top: 7rem;
   left: 48rem;
-}
+}*/
 
 .showcase .image-container img:hover {
   z-index: 12;
