@@ -1,13 +1,20 @@
 html {
-  background-color: darkcyan;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(9, 9, 9, 0.7) 4.07%,
+    #262f34 91.67%
+  );
 }
 
 .navbar {
   font-size: 20px;
 }
-
+.custom-navbar {
+  background-color: #262f34;
+}
 .navbar-brand {
   font-family: "Rochester", cursive;
-  font-weight: 400;
-  font-size: 48px;
+  font-size: 25px;
 }
