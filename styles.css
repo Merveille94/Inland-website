@@ -1,0 +1,9 @@
+html {
+  background-color: darkcyan;
+}
+
+.navbar-brand {
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-size: 48px;
+}
