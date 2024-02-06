@@ -51,7 +51,7 @@ h4 {
   line-height: 1;
 }
 
-/* showcase */
+/* showcase or hero section*/
 
 /* image */
 .image-container {
@@ -86,7 +86,7 @@ h4 {
   z-index: 12;
 }
 
-/* text */
+/* text styling*/
 .showcase .text-container {
   max-width: 80rem;
   padding: 2rem;
