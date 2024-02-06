@@ -121,3 +121,6 @@ h4 {
 .footer-rows{
   margin-top: 2rem;
 }
+.footer-rows .row-cols-5 {
+  flex-wrap: nowrap;
+}
