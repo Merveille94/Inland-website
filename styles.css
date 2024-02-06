@@ -42,7 +42,7 @@ h4 {
 }
 
 .custom-navbar {
-  background-color: #26303500;
+  background-color: #2630353d;
 }
 
 .navbar-brand {
@@ -115,9 +115,34 @@ h4 {
 
 /* footer */
 .line {
-  margin-top: 12.5rem;
+  position: relative;
+  height: 4px;
+  width: calc(78% - 10px); 
+  margin: 12.5rem auto 0 auto;
+}
+/* test */
+
+/* Circle styles */
+.line::before,
+.line::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green; 
+  top: -3px; 
 }
 
+/* Circle at the start of the line */
+.line::before {
+  left: 0;
+}
+
+/* Circle at the end of the line */
+.line::after {
+  right: 0;
+}
 .footer-rows{
   margin-top: 2rem;
 }
