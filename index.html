@@ -27,220 +27,185 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Inland - Hair Salon</title>
   </head>
+
   <body class="vh-100 vw-100 bg-radial-gradient text-bg-dark">
-    <!-- homepage -->
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-lg-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container">
-        <a href="#" class="navbar-brand"
-          ><span class="text-success">In</span>land</a
+        <a class="navbar-brand" href="#"
+          ><span class="text-success">In</span><span class="text-white">land</span></a
         >
-
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
             <li class="nav-item">
-              <a href="#Service" class="nav-link">Service</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#Gallery" class="nav-link">Gallery</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a href="#Booking" class="nav-link">Booking</a>
+              <a class="nav-link" href="#">Gallery</a>
             </li>
             <li class="nav-item">
-              <a href="#Blogs" class="nav-link">Blogs</a>
+              <a class="nav-link" href="#">Booking</a>
             </li>
             <li class="nav-item">
-              <a href="#About Us" class="nav-link">About Us</a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- showcase or Hero section -->
-    <section class="showcase text-light">
-      <div class="container position-relative">
+    <!-- Hero Section -->
+    <section class="hero-section p-4">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="text-container">
-              <h1 class="text-uppercase">
-                inland african hair <span>braiding salon</span>
-              </h1>
-              <h4>Inland Braids, The African Way</h4>
-            </div>
+          <div class="col-md-6 d-flex flex-column pe-5 txt ">
+            <p class="d-md-flex display-1 flex-column text-end pb-5 ">
+              <span >Inland </span> <span>African Hair</span>
+              <span>Braiding Salon</span>
+            </p>
+            <span class="h4 text-end p-2 text-success">Inland braids the African way</span>
+
             <div class="page-button">
-              <a class="btn btn-outline-success" type="button" href="#" role="button"
-                >Book Now</a
-              >
-              <a
-                class="btn btn-outline-success text-light"
-                type="button"
-                href="#"
-                role="button"
-                >View Gallery</a
-              >
-            </div>
+                <a class="btn btn-outline-success text-light" type="button" href="#" role="button"
+                  >Book Now</a
+                >
+                <a
+                  class="btn btn-outline-success text-light"
+                  type="button"
+                  href="#"
+                  role="button"
+                  >View Gallery</a
+                >
+              </div>
           </div>
-          <div class="col-md-6">
-            <div class="image-container">
-              <img
-                src="png/pexels-ashley-nazario-11191614.png "
-                class="img-fluid img1"
-                alt="Braid photo"
-              />
-              <img
-                src="png/Baided hair 1 1.png"
-                class="img-fluid img2"
-                alt="Braid photo"
-              />
-              <img
-                src="png/pexels-safari-consoler-11211016.png"
-                class="img-fluid img3"
-                alt="Braid photo"
-              />
+
+
+          <div class="col-md-4 pic">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/png/Baided hair 1 1.png"
+                    class="d-block w-100 img1"
+                    alt="Image 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/png/pexels-ashley-nazario-11191614.png"
+                    class="d-block w-100 img2"
+                    alt="Image 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/png/pexels-safari-consoler-11211016.png"
+                    class="d-block w-100 img3"
+                    alt="Image 3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+
     <div class=" line bg-success" ></div>
 
-    <!-- footer -->
-    <footer>
-      <div class="container text-center footer-rows">
-        <div class="row row-cols-5">
-          <!-- Location -->
-          <div class="col text-start">
-            <a href="#" class="navbar-brand logo"
-              ><span class="text-success">In</span>land</a
-            >
-
-            <table>
-              <tr>
-                <th class="fs-5 fw-bold pb-2 pt-3">Location</th>
-              </tr>
-              <tr>
-                <td>Address: Westlands, Main Ave 5th Street</td>
-              </tr>
-              <tr>
-                <td>Map: dafs/dfsf.com</td>
-              </tr>
-              <tr>
-                <td>Phone: (+85) 456-789-345</td>
-              </tr>
-              <tr>
-                <td>Hours: 8:30 am - 8:30 pm | Mon - Sat</td>
-              </tr>
-            </table>
+    <!-- Footer -->
+    <footer class="footer-section ">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+        ><span class="text-success">In</span><span class="text-white">land</span></a
+      >
+        <div class="row pt-4">
+          <div class="col ">
+            <h3>Location</h3>
+            <p>Random text for location.</p>
+            <p>Random text for contacts.</p>
+            <p>Random text for contacts.</p>
           </div>
-
-          <!-- About -->
-          <div class="col text-start pt-4">
-            <table>
-              <tr>
-                <th class="fs-5 fw-bold pt-4 pb-2">About</th>
-              </tr>
-              <tr>
-                <td>About us: Lorem ipsum dolor sit amet,</td>
-              </tr>
-              <tr>
-                <td>Mission: Lorem ipsum dolor sit amet, c</td>
-              </tr>
-              <tr>
-                <td>Vision: Lorem ipsum dolor sit amet,</td>
-              </tr>
-            </table>
+          <div class="col">
+            <h3>About</h3>
+            <p>Random text about us.</p>
+            <p>Random text for contacts.</p>
           </div>
-
-          <!-- Blogs -->
-          <div class="col text-start pt-4">
-            <table>
-              <tr>
-                <th class="fs-5 fw-bold pt-4 pb-2">Blogs</th>
-              </tr>
-              <tr>
-                <td>Latest Post: "10 Trendy African Braid Styles for 2024"</td>
-              </tr>
-              <tr>
-                <td>Featured Article: "Tips for Maintaining Healthy Braids"</td>
-              </tr>
-              <tr>
-                <td>
-                  Explore more on our blog for insightful articles and style
-                  inspirations.
-                </td>
-              </tr>
-            </table>
+          <div class="col">
+            <h3>Blogs</h3>
+            <p>Random text for blogs.</p>
+            <p>Random text for contacts.</p>
+            <p>Random text for contacts.</p>
           </div>
-
-          <!-- Follow us -->
-          <div class="col text-start pt-4">
-            <table>
-              <tr>
-                <th class="fs-5 fw-bold pt-4 pb-2">Follow us</th>
-              </tr>
-              <tr>
-                <td>Instagram: @inland_braids</td>
-              </tr>
-              <tr>
-                <td>Facebook: /inlandbraids</td>
-              </tr>
-              <tr>
-                <td>Twitter: @inland_braids</td>
-              </tr>
-              <tr>
-                <td>
-                  Stay connected for promotions, behind-the-scenes, and more!
-                </td>
-              </tr>
-            </table>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <p>Random text for follow us.</p>
+            <p>Random text for contacts.</p>
+            <p>Random text for contacts.</p>
           </div>
-
-          <!-- Contacts -->
-          <div class="col text-start pt-4">
-            <table>
-              <tr>
-                <th class="fs-5 fw-bold pt-4 pb-2">Contacts</th>
-              </tr>
-              <tr>
-                <td>Email: info@inlandbraids.com</td>
-              </tr>
-              <tr>
-                <td>Phone: (+85) 456-789-345</td>
-              </tr>
-              <tr>
-                <td>Visit us: Westlands, Main Ave 5th Street</td>
-              </tr>
-              <tr>
-                <td>Connect with us for inquiries and appointments.</td>
-              </tr>
-            </table>
+          <div class="col">
+            <h3>Contacts</h3>
+            <p>Random text for contacts.</p>
+            <p>Random text for contacts.</p>
+            <p>Random text for contacts.</p>
           </div>
         </div>
       </div>
     </footer>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="scripts.js"></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
