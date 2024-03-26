@@ -29,7 +29,7 @@ body {
 
 .navbar-nav .nav-link {
   color: white;
-  font-family: "poppin", Arial, Helvetica, sans-serif;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .navbar-nav .nav-link:hover {
@@ -48,18 +48,11 @@ body {
 }
 
 .page-button {
-  margin-left: 10rem;
   font-family: "roboto", sans-serif;
 }
 
-.btn {
-  padding: 0.8rem 4rem;
-  margin-top: 4rem;
-  margin-right: 0.3rem;
-}
-
 .pic {
-  padding-top: 4rem;
+  padding: 4rem;
 }
 
 /* Footer */
@@ -85,4 +78,55 @@ body {
   font-family: "roboto", sans-serif;
   font-size: 0.9rem;
   color: #fff;
+}
+
+/* Expand collapse navbar to the right */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: fixed;
+    right: -100%; /* Initially hide the navbar off-screen to the right */
+    top: 0;
+    bottom: 0;
+    width: 60%; /* Adjust the width as needed */
+    background-color: #263035;
+    transition: right 0.7s ease-in-out; /* Smooth transition */
+    padding: 2rem;
+  }
+
+  .navbar-collapse.show {
+    right: 0; /* Show the navbar by moving it to the right */
+  }
+
+  .pic {
+    padding: 1.5rem;
+  }
+
+  .txt {
+    padding: 0;
+  }
+
+  .page-button {
+    padding-right: 1.4rem;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.1rem;
+    padding-right: 0;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .name2 {
+    text-align: center;
+  }
+
+  .name3 {
+    padding-right: 2.5rem;
+    margin-bottom: 1rem;
+  }
 }

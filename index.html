@@ -27,19 +27,20 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Inland - Hair Salon</title>
   </head>
 
   <body class="vh-100 vw-100 bg-radial-gradient text-bg-dark">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><span class="text-success">In</span><span class="text-white">land</span></a
+          ><span class="text-success">In</span
+          ><span class="text-white">land</span></a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler collapsed bg-success"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -49,6 +50,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -75,27 +77,33 @@
     <section class="hero-section p-4">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 d-flex flex-column pe-5 txt ">
-            <p class="d-md-flex display-1 flex-column text-end pb-5 ">
-              <span >Inland </span> <span>African Hair</span>
+          <div class="col-md-6 d-flex flex-column p-2 txt">
+            <p class="d-md-flex display-1 flex-column text-end pb-5 title">
+              <span class="name">Inland </span>
+              <span class="name2">African Hair</span>
               <span>Braiding Salon</span>
             </p>
-            <span class="h4 text-end p-2 text-success">Inland braids the African way</span>
+            <span class="h4 text-end text-success name3"
+              >Inland braids the African way</span
+            >
 
-            <div class="page-button">
-                <a class="btn btn-outline-success text-light" type="button" href="#" role="button"
-                  >Book Now</a
-                >
-                <a
-                  class="btn btn-outline-success text-light"
-                  type="button"
-                  href="#"
-                  role="button"
-                  >View Gallery</a
-                >
-              </div>
+            <div class="page-button d-flex justify-content-end">
+              <a
+                class="btn btn-outline-success rounded-3 text-light px-4 me-2"
+                type="button"
+                href="#"
+                role="button"
+                >Book Now</a
+              >
+              <a
+                class="btn btn-outline-success text-light rounded-3 px-4"
+                type="button"
+                href="#"
+                role="button"
+                >View Gallery</a
+              >
+            </div>
           </div>
-
 
           <div class="col-md-4 pic">
             <div
@@ -156,17 +164,17 @@
       </div>
     </section>
 
-
-    <div class=" line bg-success" ></div>
+    <div class="line bg-success"></div>
 
     <!-- Footer -->
-    <footer class="footer-section ">
+    <footer class="footer-section">
       <div class="container">
         <a class="navbar-brand" href="#"
-        ><span class="text-success">In</span><span class="text-white">land</span></a
-      >
+          ><span class="text-success">In</span
+          ><span class="text-white">land</span></a
+        >
         <div class="row pt-4">
-          <div class="col ">
+          <div class="col">
             <h3>Location</h3>
             <p>Random text for location.</p>
             <p>Random text for contacts.</p>
@@ -200,10 +208,32 @@
     </footer>
 
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+      // Function to close the collapsed navbar when clicking outside
+      document.addEventListener("click", function (event) {
+        const isClickInsideNavbar = document
+          .querySelector(".navbar-collapse")
+          .contains(event.target);
+        const isHamburgerMenuCollapsed = document
+          .querySelector(".navbar-toggler")
+          .classList.contains("collapsed");
+
+        if (!isClickInsideNavbar && !isHamburgerMenuCollapsed) {
+          const navbarCollapse = new bootstrap.Collapse(
+            document.querySelector(".navbar-collapse")
+          );
+          navbarCollapse.hide();
+        }
+      });
+    </script>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
