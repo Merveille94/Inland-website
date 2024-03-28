@@ -36,7 +36,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="index.html"
           ><span class="text-success">In</span
           ><span class="text-white">land</span></a
         >
@@ -73,6 +73,12 @@
         </div>
       </div>
     </nav>
+    <!-- Parallax Section 2 -->
+    <section class="parallax-section d-flex flex-column txt" style="background-image: url('/png/darrin-defillo-QGFH9ozn_0M-unsplash.jpg');">
+        <h1 class="display-2">Welcome to <span class="text-success">In</span
+          ><span class="text-white">land</span></h1>
+        <p class="display-5">The best and affordable African hair salon in the industry</p>
+    </section>
 
     <!-- Hero Section -->
     <section class="hero-section p-4">
@@ -166,8 +172,31 @@
     </section>
   </header>
 
-    <hr class="container border-2 border-success">
+       <!-- Parallax Section 1 -->
+   <section class="parallax-section d-flex justify-content-center align-items-center" style="background-image: url('/png/darrin-defillo-QGFH9ozn_0M-unsplash.jpg');">
+         <!-- banner -->
+          <div
+          class="container d-sm-flex justify-content-lg-between align-items-lg-center page-button"
+        >
+          <div class="note">
+            <h1 class="h5">Sign up to our Newsletter</h1>
+            <p class="h6">Explore our latest products and special offers !</p>
+          </div>
+          <div class="mail">
+            <form class="newsletter-form d-flex" method="post">
+              <input
+                type="email"
+                class="btn btn-light"
+                name="email"
+                placeholder="Your email address"
+              />
+              <button type="submit" class="btn btn btn-success">SignUp</button>
+            </form>
+          </div>
+        </div>
+   </section>
 
+    <hr class="container border-2 border-success">
     <!-- Footer -->
     <footer class="footer-section p-0">
       <div class="container">
@@ -231,6 +260,18 @@
           navbarCollapse.hide();
         }
       });
+    </script>
+
+    <!-- JavaScript -->
+    <script>
+        // Parallax effect
+        window.addEventListener('scroll', function() {
+            let offset = window.pageYOffset;
+            document.querySelectorAll('.parallax-section').forEach(function(element) {
+                let speed = element.getAttribute('data-speed');
+                element.style.backgroundPositionY = -offset * speed + 'px';
+            });
+        });
     </script>
 
     <!-- Bootstrap JS Bundle with Popper -->
