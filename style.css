@@ -12,6 +12,34 @@ body {
   /* background-repeat: no-repeat; */
 }
 
+/* gallery page */
+    /* Custom CSS for gallery */
+    .image {
+      position: relative;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
+
+    .description {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 9px;
+      display: none;
+    }
+
+    .description.active {
+      display: block;
+    }
+
 /* #video-container {
   position: fixed;
   right: 0;
@@ -226,6 +254,7 @@ body {
   width: 20px;
 } */
 
+
   .navbar-collapse{
     background-color: #263035;
     text-align: center;
@@ -308,4 +337,12 @@ body {
     margin-right: 0.3rem;
     margin-left: 0.3rem;
   }
+
+  .des1{
+    font-size: 0.8rem;
+  }
+   .des3{
+    font-size: 0.4rem;
+   }
 }
+
