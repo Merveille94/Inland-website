@@ -203,6 +203,7 @@ body {
   font-size: 14px;
 }
 
+
 /* Expand collapse navbar to the right */
 @media (max-width: 991.98px) {
   /* .navbar-collapse {
@@ -274,7 +275,7 @@ body {
   }
 
   .imgdiv {
-    width: 8rem;
+    width: 10rem;
     padding-top: 0.6rem;
   }
 
@@ -292,10 +293,11 @@ body {
     text-align: center;
   }
 
-  .cardbutton {
+  /* .cardbutton {
     font-size: 0.7rem;
-    padding: 5px 18px;
-  }
+    padding: 5px 36px;
+    margin:0.1rem;
+  } */
 
   .allcard {
     display: flex;
