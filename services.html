@@ -651,24 +651,27 @@
 <div id="booking-card" class="cardbook text-black d-flex justify-content-around">
   <h2>Booking Session</h2>
   <label for="session-date">Select Date:</label>
-  <input type="date" id="session-date" name="session-date" required><br>
+  <input type="date" id="session-date" name="session-date" required class="btn"><br>
   
   <label for="session-time">Session Time:</label>
-  <select id="session-time" name="session-time">
+  <select id="session-time" name="session-time" class="btn">
+    <option value="">Choose your booking session</option>
     <option value="morning">Morning (8am - 10am)</option>
     <option value="afternoon">Afternoon (1pm - 4pm)</option>
     <option value="evening">Evening (6pm - 9pm)</option>
   </select><br>
   
   <label for="contact-name">Your Name:</label>
-  <input type="text" id="contact-name" name="contact-name" placeholder="Your Name" required><br>
+  <input type="text" id="contact-name" name="contact-name" class="btn" placeholder="Your Name" required><br>
   
   <label for="contact-email">Email or Phone:</label>
-  <input type="text" id="contact-email" name="contact-email" placeholder="Email or Phone" required><br>
+  <input type="text" id="contact-email" name="contact-email" class="btn" placeholder="Email or Phone" required><br>
   
   
-  <button id="confirm-booking-btn">Book</button>
-  <button id="cancel-booking-btn">Cancel</button>
+<div class="d-flex justify-content-around">
+  <button id="confirm-booking-btn" class="btn btn-outline-success rounded-5 px-4">Book</button>
+  <button id="cancel-booking-btn" class=" btn btn-outline-success rounded-5 px-4">Cancel</button>
+</div>
 </div>
 
       <!-- <div id="video-container">
