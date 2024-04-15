@@ -1,5 +1,8 @@
 # Inland African Hair Braiding Salon: Your Ultimate Destination for Stylish Transformations
 
+
+##Unfortunetly, the client did not approve of the design so this project is cancel till further notice...FYI: I did not design this only coded it.
+
 Welcome to Inland, where style meets expertise in the world of hair care and beauty! This GitHub repository is dedicated to the development of a cutting-edge hair salon website that aims to redefine the online experience for both clients and salon professionals in Ghana.
 
 <img src="img/Screenshot (4).png">
